@@ -24,7 +24,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="relative flex items-center justify-around h-28 px-4 md:px-10 shadow-md">
+    <header className="relative text-sm flex items-center justify-around h-28 px-4 md:px-10 shadow-md">
       <div className="hidden md:flex items-center gap-12 ">
         <Link href="/" className="hover:text-gray-600 transition">
           Главная
