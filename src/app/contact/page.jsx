@@ -20,9 +20,7 @@ const Contact = () => {
               Почта
             </span>
             <p className="text-xl md:text-2xl font-light tracking-tight break-words hover:text-stone-500 transition-colors">
-              <a href="mailto:yankastsuikevich@gmail.com">
-                yankastsuikevich@gmail.com
-              </a>
+              <a href="mailto:k.yana00@mail.ru">k.yana00@mail.ru</a>
             </p>
           </div>
 

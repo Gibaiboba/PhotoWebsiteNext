@@ -15,7 +15,6 @@ export default function Header() {
     { name: "Love story", href: "/story" },
     { name: "Мероприятия", href: "/meetings" },
     { name: "Портретные", href: "/portrait" },
-    { name: "Групповые", href: "/group" },
   ];
 
   const eventDropdownInfo = [
@@ -24,7 +23,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="relative text-sm flex items-center justify-around h-28 px-4 md:px-10 shadow-md">
+    <header className="relative text-sm tracking-widest flex items-center justify-around h-28 px-4 md:px-10 shadow-md">
       <div className="hidden md:flex items-center gap-12 ">
         <Link href="/" className="hover:text-gray-600 transition">
           Главная
@@ -70,8 +69,8 @@ export default function Header() {
       </div>
 
       <Link href="/" className="z-50">
-        <h1 className="text-xl md:text-2xl hover:text-gray-600 transition uppercase tracking-widest">
-          Yana Kastsuikevich
+        <h1 className="text-xl md:text-2xl hover:text-gray-600 transition uppercase tracking-widest text-center leading-tight">
+          Yana <br /> Kastsiukevich
         </h1>
       </Link>
 

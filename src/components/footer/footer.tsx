@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-10 border-t border-gray-100">
+    <footer className="border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center h-auto md:h-24 gap-6 py-8 md:py-0">
         <p className="text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Yana Kastsuikevich
+          &copy; {new Date().getFullYear()} Yana Kastsiukevich
         </p>
 
         <div className="flex items-center gap-8">
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <p className="text-gray-500 text-sm hover:text-black transition-colors cursor-pointer">
-          yankastsuikevich@gmail.com
+          k.yana00@mail.ru
         </p>
       </div>
     </footer>
