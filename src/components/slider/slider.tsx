@@ -5,11 +5,36 @@ import { useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  { src: "/slider1.jpg", alt: "first image", width: 1000, height: 800 },
-  { src: "/slider2.jpg", alt: "second image", width: 1000, height: 800 },
-  { src: "/slider3.jpg", alt: "third image", width: 1000, height: 800 },
-  { src: "/slider4.jpg", alt: "fourth image", width: 1000, height: 800 },
-  { src: "/slider5.jpg", alt: "fifth image", width: 700, height: 600 },
+  {
+    src: "/sliderPhoto/slider1.jpg",
+    alt: "first image",
+    width: 1000,
+    height: 800,
+  },
+  {
+    src: "/sliderPhoto/slider2.jpg",
+    alt: "second image",
+    width: 1000,
+    height: 800,
+  },
+  {
+    src: "/sliderPhoto/slider3.jpg",
+    alt: "third image",
+    width: 1000,
+    height: 800,
+  },
+  {
+    src: "/sliderPhoto/slider4.jpg",
+    alt: "fourth image",
+    width: 1000,
+    height: 800,
+  },
+  {
+    src: "/sliderPhoto/slider5.jpg",
+    alt: "fifth image",
+    width: 700,
+    height: 600,
+  },
 ];
 
 export const Slider = () => {

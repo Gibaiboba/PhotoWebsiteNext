@@ -15,7 +15,9 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <h1 className="flex justify-center mt-12">Portfolio</h1>
+      <h1 className="flex justify-center mt-12 text-2xl tracking-wider underline">
+        Portfolio
+      </h1>
       <Photo />
 
       <section className="relative h-[40vh] w-full overflow-hidden mt-20">
