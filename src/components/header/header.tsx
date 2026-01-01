@@ -15,6 +15,7 @@ export default function Header() {
     { name: "Love story", href: "/story" },
     { name: "Мероприятия", href: "/meetings" },
     { name: "Портретные", href: "/portrait" },
+    { name: "Семейные", href: "/family" },
   ];
 
   const eventDropdownInfo = [

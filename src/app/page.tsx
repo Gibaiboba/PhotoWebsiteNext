@@ -4,6 +4,7 @@ import { Photo } from "@/components/photo/photo";
 import { Slider } from "@/components/slider/slider";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { mainPortfolio } from "../../src/data/data";
 
 export default function Home() {
   const router = useRouter();
@@ -18,7 +19,7 @@ export default function Home() {
       <h1 className="flex justify-center mt-12 text-2xl tracking-wider underline">
         Portfolio
       </h1>
-      <Photo />
+      <Photo images={mainPortfolio} />
 
       <section className="relative h-[40vh] w-full overflow-hidden mt-20">
         <Image

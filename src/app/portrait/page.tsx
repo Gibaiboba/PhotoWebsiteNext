@@ -1,5 +1,12 @@
+import { Photo } from "@/components/photo/photo";
+import { portrait } from "@/data/data";
+
 const Portrait = () => {
-  return <h3>Portrait</h3>;
+  return (
+    <>
+      <Photo images={portrait} />
+    </>
+  );
 };
 
 export default Portrait;
