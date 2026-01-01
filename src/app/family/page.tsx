@@ -32,8 +32,9 @@ const Family = () => {
               <Image
                 src={cat.image}
                 alt={cat.title}
-                fill
                 className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                fill
+                sizes="(min-width: 1280px) 400px, (min-width: 768px) 50vw, 100vw"
               />
             </div>
 

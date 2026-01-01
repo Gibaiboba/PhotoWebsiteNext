@@ -29,7 +29,7 @@ const Contact = () => {
               Telegram
             </span>
             <Link
-              href="https://t.me"
+              href="https://t.me/yani_mur"
               target="_blank"
               className="text-xl md:text-2xl font-light tracking-tight inline-flex items-center group"
             >

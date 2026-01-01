@@ -510,12 +510,7 @@ export const party = [
         width: 859,
         height: 1280,
     },
-    {
-        src: "/collection/party/dev4.jpg",
-        alt: "party image",
-        width: 859,
-        height: 1280,
-    },
+
 
     {
         src: "/collection/party/dev9.jpg",

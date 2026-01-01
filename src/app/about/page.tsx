@@ -10,7 +10,8 @@ const About = () => {
           width={305}
           height={540}
           priority
-          className="object-cover"
+          sizes="(min-width: 1280px) 400px, (min-width: 768px) 50vw, 100vw"
+          className="w-full h-auto object-cover"
         />
       </div>
       <h1>Обо мне</h1>

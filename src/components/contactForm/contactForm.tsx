@@ -1,21 +1,31 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
+import { sendEmail } from "@/app/actions";
 
 export default function ContactForm() {
   const [loading, setLoading] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const handleSubmit = () => {
+  const handleSubmit = async (formData: FormData) => {
     setLoading(true);
-  };
 
-  //   async (formData) => {
-  //     setLoading(true);
-  //     // Имитация отправки
-  //     await new Promise((r) => setTimeout(r, 1500));
-  //     setLoading(false);
-  //     alert("Сообщение отправлено!");
-  //   };
+    try {
+      const result = await sendEmail(formData);
+
+      if (result.success) {
+        alert("Сообщение успешно отправлено!");
+        formRef.current?.reset();
+      } else {
+        alert("Произошла ошибка при отправке.");
+      }
+    } catch (error) {
+      console.error("Ошибка:", error);
+      alert("Не удалось связаться с сервером.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <section className="max-w-3xl mx-auto px-6 py-20">

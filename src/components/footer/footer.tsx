@@ -9,7 +9,10 @@ export default function Footer() {
         </p>
 
         <div className="flex items-center gap-8">
-          <Link href="https://www.instagram.com" aria-label="Instagram">
+          <Link
+            href="https://www.instagram.com/yani_storyphoto"
+            aria-label="Instagram"
+          >
             <svg
               className="h-6 w-6 fill-current text-gray-400 hover:text-pink-500 transition-colors"
               viewBox="0 0 24 24"
@@ -19,7 +22,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            href="https://t.me"
+            href="https://t.me/yani_mur"
             target="_blank"
             className="text-gray-400 hover:text-[#0088cc] transition-colors"
           >
@@ -29,7 +32,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            href="viber://chat?number=%2B375XXXXXXXXX"
+            href="viber://chat?number=%2B375255320749"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Viber"
