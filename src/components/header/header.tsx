@@ -123,24 +123,24 @@ export default function Header() {
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
         <div
-          className={`w-6 h-0.5 bg-black transition-all ${
+          className={`w-6 h-0.5 bg-gray-800 transition-all ${
             isMobileMenuOpen ? "rotate-45 translate-y-1.5" : "mb-1.5"
           }`}
         ></div>
         <div
-          className={`w-6 h-0.5 bg-black mb-1.5 ${
+          className={`w-6 h-0.5 bg-gray-800 mb-1.5 ${
             isMobileMenuOpen ? "opacity-0" : ""
           }`}
         ></div>
         <div
-          className={`w-6 h-0.5 bg-black transition-all ${
+          className={`w-6 h-0.5 bg-gray-800 transition-all ${
             isMobileMenuOpen ? "-rotate-45 -translate-y-1" : ""
           }`}
         ></div>
       </button>
 
       <div
-        className={`fixed inset-0 bg-white z-40 flex flex-col items-start justify-start pt-32 px-10 gap-8 transition-transform duration-500 ease-in-out ${
+        className={`fixed inset-0 bg-white dark:bg-dark z-40 flex flex-col items-start justify-start pt-32 px-10 gap-8 transition-transform duration-500 ease-in-out ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
