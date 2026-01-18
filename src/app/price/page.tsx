@@ -29,7 +29,7 @@ export default function Price() {
             priority
           />
 
-          <div className="pt-4 space-y-2 text-sm leading-relaxed text-gray-500 normal-case">
+          <div className="pt-4 space-y-2 text-sm dark:text-white leading-relaxed text-gray-500 normal-case">
             <p className="font-medium text-black mb-2">Что вы получите?</p>
             <p>· 1 час съемки</p>
             <p>· Помощь в подборе образа</p>
@@ -77,7 +77,7 @@ export default function Price() {
             height={1280}
             className="w-full h-auto object-cover"
           />
-          <div className="pt-4 space-y-2 text-sm leading-relaxed text-gray-500 normal-case">
+          <div className="pt-4 space-y-2 text-sm dark:text-white leading-relaxed text-gray-500 normal-case">
             <p className="font-medium text-black mb-2">Что вы получите?</p>
             <p>· 1 час съемки</p>
             <p>· Помощь в подборе образа</p>
@@ -122,7 +122,7 @@ export default function Price() {
             height={1280}
             className="w-full h-auto object-cover"
           />
-          <div className="pt-4 space-y-2 text-sm leading-relaxed text-gray-500 normal-case">
+          <div className="pt-4 space-y-2 text-sm dark:text-white leading-relaxed text-gray-500 normal-case">
             <p className="font-medium text-black mb-2">Что вы получите?</p>
             <p>· Съемка от 1 до 3 часов</p>
             <p>· От 10 человек</p>
@@ -166,7 +166,7 @@ export default function Price() {
             <p className="text-lg font-medium mb-2 uppercase tracking-wide">
               дата съемки и отмена фотосессии
             </p>
-            <p className="text-gray-500 leading-relaxed normal-case">
+            <p className="text-gray-500 dark:text-white leading-relaxed normal-case">
               Дата считается забронированной после внесения задатка. Отменяя
               фотосессию, задаток удерживается.
             </p>
@@ -176,7 +176,7 @@ export default function Price() {
             <p className="text-lg font-medium mb-2 uppercase tracking-wide">
               перенос фотосессии
             </p>
-            <p className="text-gray-500 leading-relaxed normal-case">
+            <p className="text-gray-500 dark:text-white leading-relaxed normal-case">
               Перенести фотосессию без потери предоплаты можно 1 раз, не позднее
               чем за 72 часа.
             </p>
@@ -186,17 +186,17 @@ export default function Price() {
             <p className="text-lg font-medium mb-2 uppercase tracking-wide">
               условия конфиденциальности
             </p>
-            <p className="text-gray-500 leading-relaxed normal-case">
+            <p className="text-gray-500 dark:text-white leading-relaxed normal-case">
               По умолчанию я имею право использовать фото для портфолио. Условия
               конфиденциальности обсуждаются отдельно.
             </p>
           </div>
 
-          <div className="pt-4 px-6 bg-stone-50 border border-stone-100">
+          <div className="pt-4 px-6 bg-stone-50 dark:bg-black border border-stone-100">
             <p className="text-lg font-bold mb-3 uppercase tracking-wide text-600">
               ВАЖНО!
             </p>
-            <p className="text-gray-600 leading-relaxed normal-case pb-4">
+            <p className="text-gray-600 dark:text-white leading-relaxed normal-case pb-4">
               Фотограф выбирает и обрабатывает договоренное число фотографий
               (или более, на свое усмотрение). Клиенту не передаются все
               исходные материалы, передаются только результаты обработки.

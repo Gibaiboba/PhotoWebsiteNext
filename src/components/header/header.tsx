@@ -54,7 +54,7 @@ export default function Header() {
             </svg>
           </button>
           {isPortfolioOpen && (
-            <div className="absolute top-full left-0 flex flex-col bg-white shadow-lg p-4 z-50 min-w-[150px]">
+            <div className="absolute top-full left-0 flex flex-col bg-[var(--background)] text-[var(--foreground)] shadow-lg p-4 z-50 min-w-[150px]">
               {eventDropdownPortfolio.map((event) => (
                 <Link
                   key={event.name}
@@ -100,7 +100,7 @@ export default function Header() {
             </svg>
           </button>
           {isInfoOpen && (
-            <div className="absolute top-full left-0 flex flex-col bg-white shadow-lg p-4 z-50 min-w-[150px]">
+            <div className="absolute top-full left-0 flex flex-col bg-[var(--background)] text-[var(--foreground)] shadow-lg p-4 z-50 min-w-[150px]">
               {eventDropdownInfo.map((event) => (
                 <Link
                   key={event.name}
@@ -123,24 +123,24 @@ export default function Header() {
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
         <div
-          className={`w-6 h-0.5 bg-gray-800 transition-all ${
+          className={`w-6 h-0.5 bg-[#87826d] dark:bg-[#ededed] transition-all ${
             isMobileMenuOpen ? "rotate-45 translate-y-1.5" : "mb-1.5"
           }`}
         ></div>
         <div
-          className={`w-6 h-0.5 bg-gray-800 mb-1.5 ${
+          className={`w-6 h-0.5 bg-[#87826d] dark:bg-[#ededed] mb-1.5 ${
             isMobileMenuOpen ? "opacity-0" : ""
           }`}
         ></div>
         <div
-          className={`w-6 h-0.5 bg-gray-800 transition-all ${
+          className={`w-6 h-0.5 bg-[#87826d] dark:bg-[#ededed] transition-all ${
             isMobileMenuOpen ? "-rotate-45 -translate-y-1" : ""
           }`}
         ></div>
       </button>
 
       <div
-        className={`fixed inset-0 bg-white dark:bg-dark z-40 flex flex-col items-start justify-start pt-32 px-10 gap-8 transition-transform duration-500 ease-in-out ${
+        className={`fixed inset-0 bg-[var(--background)] text-[var(--foreground)] z-40 flex flex-col items-start justify-start pt-32 px-10 gap-8 transition-transform duration-500 ease-in-out ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >

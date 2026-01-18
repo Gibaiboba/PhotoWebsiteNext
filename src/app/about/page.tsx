@@ -15,7 +15,7 @@ const About = () => {
         />
       </div>
       <h1>Обо мне</h1>
-      <p className="max-w-xl text-sm mt-4 font-light leading-relaxed text-gray-700 mx-auto normal-case">
+      <p className="max-w-xl text-sm dark:text-white mt-4 font-light leading-relaxed text-gray-700 mx-auto normal-case">
         Привет! Меня зовут Яна, я фотограф из Минска. Я создаю для съемки
         комфортную атмосферу, чтобы вы могли показать естественные эмоции и не
         стеснялись своих чувств и шуток. Я люблю снимать людей и то, что их

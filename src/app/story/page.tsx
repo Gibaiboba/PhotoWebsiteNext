@@ -7,7 +7,6 @@ export default function LoveStory() {
       <h3 className="flex items-center text-2xl justify-center mt-12">
         Love Story
       </h3>
-      ;
       <Photo images={loveStory} />
     </>
   );
