@@ -53,7 +53,7 @@ export default function ContactForm() {
           />
           <label
             htmlFor="name"
-            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black"
+            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black dark:peer-focus:text-white"
           >
             Ваше имя
           </label>
@@ -69,7 +69,7 @@ export default function ContactForm() {
           />
           <label
             htmlFor="city"
-            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black"
+            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black dark:peer-focus:text-white"
           >
             Город проведения
           </label>
@@ -86,7 +86,7 @@ export default function ContactForm() {
           />
           <label
             htmlFor="phone"
-            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black"
+            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black dark:peer-focus:text-white"
           >
             Номер телефона
           </label>
@@ -117,7 +117,7 @@ export default function ContactForm() {
           ></textarea>
           <label
             htmlFor="message"
-            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black"
+            className="absolute left-0 -top-5 text-xs uppercase tracking-widest text-gray-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:top-3 peer-focus:-top-5 peer-focus:text-xs peer-focus:text-black dark:peer-focus:text-white"
           >
             Ваше сообщение
           </label>
@@ -127,7 +127,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={loading}
-            className="group relative px-12 py-4 bg-black text-white uppercase tracking-[0.3em] text-sm overflow-hidden transition-all hover:bg-orange-900 disabled:bg-gray-400"
+            className="group relative px-12 py-4 bg-black text-white uppercase tracking-[0.3em] text-sm overflow-hidden transition-all hover:bg-orange-900 disabled:bg-gray-400 dark:border dark:border-white"
           >
             <span className={loading ? "opacity-0" : "opacity-100"}>
               Отправить запрос

@@ -43,16 +43,16 @@ export default function Price() {
             <p>· Облачное хранилище</p>
           </div>
           <button
-            className="group flex items-center mx-auto mt-12 text-white text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl cursor-pointer outline-none"
+            className="group flex items-center mx-auto mt-12 text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl cursor-pointer outline-none"
             onClick={handleClick}
           >
-            <span className="leading-none text-sm uppercase text-black">
+            <span className="leading-none text-sm uppercase text-black dark:text-white">
               Связаться
             </span>
             <svg
               className="w-5 h-5 ml-3 transition-all duration-300 group-hover:translate-x-2"
               fill="none"
-              stroke="black"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path
@@ -88,16 +88,16 @@ export default function Price() {
             <p>· Облачное хранилище</p>
           </div>
           <button
-            className="group flex items-center mt-17 mx-auto mt-12 text-white text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl cursor-pointer outline-none"
+            className="group flex items-center mt-17 mx-auto mt-12 text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl cursor-pointer outline-none"
             onClick={handleClick}
           >
-            <span className="leading-none text-sm uppercase text-black">
+            <span className="leading-none text-sm uppercase text-black dark:text-white">
               Связаться
             </span>
             <svg
               className="w-5 h-5 ml-3 transition-all duration-300 group-hover:translate-x-2"
               fill="none"
-              stroke="black"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path
@@ -133,16 +133,16 @@ export default function Price() {
             <p>· Облачное хранилище</p>
           </div>
           <button
-            className="group flex items-center mx-auto mt-16 text-white text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl cursor-pointer outline-none"
+            className="group flex items-center mx-auto mt-16 text-lg md:text-xl font-light mb-12 tracking-wide max-w-2xl cursor-pointer outline-none"
             onClick={handleClick}
           >
-            <span className="leading-none text-sm uppercase text-black">
+            <span className="leading-none text-sm uppercase text-black dark:text-white">
               Связаться
             </span>
             <svg
               className="w-5 h-5 ml-3 transition-all duration-300 group-hover:translate-x-2"
               fill="none"
-              stroke="black"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path
